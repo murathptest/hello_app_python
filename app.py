@@ -9,7 +9,7 @@ def home():
         subscribe = "subscribe" in request.form
         msg = f"Hello {name}. Subscribed: {subscribe}"
     return render_template_string("""
-      <h1>Hi, World!</h1>
+      <h1>Hello, World!</h1>
       <form method="post">
         <input name="name" type="text">
         <input name="subscribe" type="checkbox">
